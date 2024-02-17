@@ -1,0 +1,66 @@
+.Container{
+    display:flex;
+    justify-content: center;
+    margin: 20px 0px 100px;
+    min-height: 1000px;
+}
+
+.Table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.Table thead{
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+}
+
+.Table th{
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 10px 0px;
+}
+
+
+.Table tbody tr{
+    height: 80px;
+    border-bottom: 1px solid #22262e;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.Symbol{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Symbol img{
+    width:25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.Symbol span{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #9fa6b7;
+}
+ .Success{
+    color: #57bc7c;
+ }
+
+ .Error{
+    color: #d33636;
+ }
+
+ @media(max-width:600px){
+    .Table{
+        display: block;
+        overflow-x: scroll;
+    }
+
+    .Table td, .Table th{
+        padding: 0px 10px;
+    }
+ }

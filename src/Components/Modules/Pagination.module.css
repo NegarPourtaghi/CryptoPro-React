@@ -1,0 +1,33 @@
+.Container{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.Container button{
+    width:80px;
+    background-color: #3874ff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.Container p{
+    display: inline-block;
+    border: 1px solid #3874ff;
+    border-radius: 5px;
+    text-align: center;
+    width: 25px;
+}
+
+.disabled{
+    opacity: 0.3;
+}
+.Selected{
+    background-color: #3874ff;
+}

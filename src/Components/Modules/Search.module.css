@@ -1,0 +1,58 @@
+.Container{
+    margin-top: 50px;
+    position: relative;
+}
+
+.Container input{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #23242e;
+    border: none;
+    border-radius: 5px;
+}
+.Container select{
+    background-color: #23242e;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    margin-left: 20px;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.Container select:focus{
+    outline: none;
+}
+.SearchResult{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    background-color: #18181c;
+    border: 2px solid #22262e;
+    padding: 20px;
+    overflow: scroll;
+
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    background-color: transparent;
+}
+ .SearchResult li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #22262e;
+ }
+
+ .SearchResult li img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+ }
